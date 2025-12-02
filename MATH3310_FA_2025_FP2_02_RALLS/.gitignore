@@ -216,3 +216,17 @@ Desktop.ini
 
 # Keep notebook checkpoints ignored (already present but re-assert)
 .ipynb_checkpoints/
+
+# Pip / venv artifacts
+.venv/
+venv/
+env/
+pip-wheel-metadata/
+pip-log.txt
+pip-delete-this-directory.txt
+# pip cache directories (local, but sometimes saved in repo by mistake)
+__pycache__/
+.cache/pip/
+
+# Freeze output (optional — keep requirements.txt tracked)
+# requirements.txt
